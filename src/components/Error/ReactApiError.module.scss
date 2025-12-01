@@ -1,0 +1,26 @@
+/* src/components/ReactApiError.module.scss */
+
+.root {
+  padding: 0;
+  color: var(--text-color-error);
+}
+
+.icon {
+  margin: 1rem 0.8rem 1rem 1rem;
+  padding: 0;
+}
+
+.title {
+  font-size: 2rem;
+  font-weight: 800;
+  margin: -0.2rem 0 0 0;
+  padding: 0;
+}
+
+.message {
+  font-size: 1.8rem;
+  widows: 2;
+  orphans: 2;
+  margin: 0;
+  padding: 0;
+}

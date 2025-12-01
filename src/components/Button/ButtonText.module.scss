@@ -1,0 +1,20 @@
+/* src/components/ButtonText.module.scss */
+
+.ButtonText {
+  padding: 0 !important; 
+  border: none !important;
+  background: transparent !important;
+  
+  color: var(--link-color);
+  text-decoration: underline;
+
+  text-align: left;
+  align-items: flex-start;
+  min-width: auto;
+  
+  &:hover {
+    color: var(--link-color); // Keeps the color consistent on hover
+    text-decoration: underline; // Ensure underline stays on hover
+    background: transparent !important; // Ensure no background flash
+  }
+}

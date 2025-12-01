@@ -1,0 +1,17 @@
+/* src/components/ButtonPrimary.module.scss */
+
+.ButtonPrimary {
+  background-color: var(--button-primary-bg);
+  color: var(--button-primary-color);
+
+  &:hover {
+    background-color: var(--button-primary-bg-hover);
+    color: var(--button-primary-color-hover);
+  }
+
+  // Mantine
+  &:active {
+    background-color: var(--button-primary-bg-hover);
+    color: var(--button-primary-color-hover);
+  }
+}

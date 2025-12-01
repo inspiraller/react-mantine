@@ -1,0 +1,13 @@
+/* src/components/ButtonBase.module.scss */
+.ButtonBase {
+  &:hover {
+    opacity: 0.9;
+  }
+  padding: 0.8rem 1.4rem;
+  border-radius: 2.4rem;
+  text-decoration: none;
+  text-transform: none;
+  
+  // Mantine
+  transition: all var(--mantine-transition-duration) ease;
+}

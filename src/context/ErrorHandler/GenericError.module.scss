@@ -1,0 +1,24 @@
+/* src/components/GenericError.module.scss */
+
+// Targets the root container (MUI Box equivalent)
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 50vh;
+  padding: 1rem; /* Mantine's default spacing is p={3} which is usually 1rem or more */
+  text-align: center;
+}
+
+// Targets the Alert component (MUI Alert equivalent)
+.alertRoot {
+  max-width: 600px;
+  width: 100%;
+}
+
+// Targets the Code block for the error stack
+.codeContainer {
+  margin-top: 1rem;
+  text-align: left;
+}

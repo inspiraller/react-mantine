@@ -1,0 +1,11 @@
+{
+	"extends": "./tsconfig.base.json",
+	"compilerOptions": {
+		"target": "ES2020",
+		"isolatedModules": true,
+		"jsx": "preserve",
+		"jsxImportSource": "react"
+	},
+	"include": ["src/**/*", "src/declarations/*", "postcss.config.ts", "playwright.config.ts"],
+	"exclude": ["node_modules", "dist", "tests", "e2e"]
+}
