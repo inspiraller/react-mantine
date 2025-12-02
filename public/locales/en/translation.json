@@ -2,46 +2,15 @@
   "page": {
     "homepage": {
       "head": {
-        "title": "DOMAIN HOMEPAGE HEAD TITLE",
-        "description": "DOMAIN HOMEPAGE HEAD DESCRIPTION",
+        "title": "My website",
+        "description": "My website description",
         "og": {
-          "title": "DOMAIN HOMEPAGE OG TITLE",
-          "description": "DOMAIN HOMEPAGE OG DESCRIPTION"
+          "title": "My Website",
+          "description": "My website description"
         }
       },
       "body": {
-        "h1": "Schema CMS"
-      }
-    },
-    "dashboard": {
-      "head": {
-        "title": "Schema CMS - Dashboard",
-        "description": "Schema CMS Dashboard"
-      },
-      "body": {
-        "h1": "Dashboard"
-      }
-    },
-    "schemas": {
-      "head": {
-        "title": "CMS Schema - Schemas",
-        "description": "List of schemas",
-        "og": {
-          "title": "CMS Schema - Schemas",
-          "description": "List of schemas"
-        }
-      },
-      "body": {
-        "h1": "Schemas"
-      }
-    },
-    "schemasEdit": {
-      "head": {
-        "title": "CMS Schema - Schemas - Edit Schema",
-        "description": "Edit Schema"
-      },
-      "body": {
-        "h1": "Edit Schema"
+        "h1": "My website"
       }
     }
   },
@@ -50,27 +19,5 @@
       "401": "Unauthorized. Please log in again.",
       "403": "Forbidden. You do not have access."
     }
-  },
-  "Account": "Account",
-  "Header": "Header",
-  "Loading": "Loading",
-  "Go to page 2": "Go to page 2",
-  "Homepage": "Homepage",
-  "Login": "Login",
-  "Register": "Register",
-  "Logout": "Logout",
-  "Don't have an account?": "Don't have an account?",
-  "Logging in": "Logging in ...",
-  "Invalid email or password": "Invalid email or password",
-  "Forgot your password?": "Forgot your password?",
-  "Sending": "Sending...",
-  "Send Reset Link": "Send Reset Link",
-  "A password reset link has been sent to your email.": "A password reset link has been sent to your email.",
-  "Save": "Save",
-  "Saving": "Saving",
-  "Saved": "Saved",
-  "Error": "Error",
-  "Select value": "Select value",
-  "Custom": "Custom",
-  "Basic": "Basic"
+  }
 }
